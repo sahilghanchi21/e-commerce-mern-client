@@ -1,0 +1,48 @@
+.main-container {
+    width: 100%;
+    height: 100vh;
+
+    .header-component {
+        width: 100%;
+        height: 10vh;
+
+    }
+
+    .layout-main-container {
+        width: 100%;
+        height: 80vh;
+        overflow: auto;
+    }
+
+    .footer-component {
+        width: 100%;
+        height: 10vh;
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main-container {
+
+        .header-component {
+            width: 100%;
+            height: 10vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+        .layout-main-container {
+            width: 100%;
+            height: 83vh;
+            overflow: auto;
+        }
+
+        .footer-component {
+            width: 100%;
+            height: 7vh;
+
+        }
+    }
+}
